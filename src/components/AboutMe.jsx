@@ -1,21 +1,22 @@
 import React from "react";
+import profilePic from "../assets/people02.png";
 
 const AboutMe = () => {
   return (
-    <section className="shadow-sm shadow-slate-600 px-20 py-20">
+    <section className="px-6 md:px-28 py-20">
       {/* Konten */}
       <div className="flex flex-col md:flex-row items-center justify-around gap-10">
         {/* Foto Profil */}
         <div>
           <img
-            src="src/assets/people02.png"
-            alt="Profile"
-            className="w-80 h-80 rounded-full object-cover border-4 border-purple-600 shadow-lg"
+            src={profilePic} // pakai import
+            alt="Foto Profil Hadi Budi Hardoyo"
+            className="w-60 h-60 md:w-80 md:h-80 rounded-full object-cover border-4 border-purple-600 shadow-lg"
           />
         </div>
 
         {/* Info */}
-        <div className="">
+        <div>
           {/* Badge */}
           <span className="inline-block bg-purple-900/40 text-blue-500 font-bold text-sm px-5 py-3 rounded-full mb-4">
             Tentang Saya
@@ -28,16 +29,16 @@ const AboutMe = () => {
 
           {/* Deskripsi */}
           <ul className="text-gray-300 space-y-3 leading-relaxed">
-            <li>
-              👋 Halo, nama saya Hadi Budi Hardoyo, tapi bisa panggil saya Hadi saja. Salam Kenal!
+            <li>👋 Halo, saya Hadi. Senang berkenalan denganmu!</li>
+            <li>🎓 Lulusan Sarjana Teknik Informatika. <br />
+                💻 Memiliki pengalaman lebih dari 1 tahun dalam mengembangkan
+                    antarmuka dengan JavaScript dan React JS. <br />
+                🚀 Tertarik pada pengembangan Front-end (React, React Native,
+                    Vue.js) serta desain UI/UX.
             </li>
             <li>
-              🎓 Lulusan Sarjana Teknik Informatika <br />
-              💻 Lebih dari 1 tahun pengalaman dalam mengembangkan dan memprogram antarmuka dengan JavaScript dan React JS. <br />
-              🚀 Tertarik pada pengembangan Front-end dengan React, React Native, Vue.js, serta desain UI/UX. <br />
-            </li>
-            <li>
-              🌐 Saya suka menjelajahi teknologi baru dan terus belajar untuk meningkatkan keterampilan saya.
+              🌐 Suka menjelajahi teknologi baru dan terus belajar untuk
+              meningkatkan keterampilan.
             </li>
           </ul>
         </div>
