@@ -3,12 +3,12 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const HomeLeft = () => {
   return (
-    <div className="home-left">
-      <div className="flex flex-col items-start gap-6 max-w-xl">
-        <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+    <div className="home-left w-full md:w-1/3 text-center md:text-left">
+      <div className="flex flex-col items-center md:items-start gap-6 max-w-xl">
+        <h1 className="text-3xl md:text-5xl font-bold leading-tight">
           Hadi <br /> Budi Hardoyo
         </h1>
-        <p className="text-gray-400">
+        <p className="text-gray-400 text-sm md:text-base">
           Frontend Developer | UI/UX Designer
         </p>
 
