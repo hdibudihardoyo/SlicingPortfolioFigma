@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import { Section } from "lucide-react";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full py-6 px-6 flex justify-between items-center bg-[#1a1a2e] backdrop-blur-md shadow-md rounded-full mt-4 transition-all duration-300">
+    <section className="px-20 py-7">
+          <nav className="py-4 flex justify-between items-center bg-[#1a1a2e] backdrop-blur-md shadow-md rounded-full transition-all duration-300">
       {/* Logo */}
       <img src={logo} alt="logo" className="w-[124px] h-[32px]" />
 
@@ -15,7 +17,7 @@ const Navbar = () => {
         {navLinks.map((nav) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white hover:text-blue-500 transition ease-in-out duration-100`}
+            className={`font-poppins font-normal cursor-pointer text-[15px] mr-6 text-gray-400 hover:text-blue-500 transition ease-in-out duration-100`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
@@ -50,6 +52,8 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    </section>
+
   );
 };
 
