@@ -5,7 +5,7 @@ const Avatar = () => {
   return (
     <div>
       {/* Avatar */}
-      <div className="w-[350px] h-[350px] rounded-full overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+      <div className="w-[450px] h-[450px] rounded-full overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
         <img
         src={avatar}
         alt="Avatar"
