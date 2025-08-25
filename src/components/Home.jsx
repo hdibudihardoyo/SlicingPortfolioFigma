@@ -5,10 +5,10 @@ import Avatar from "./Avatar";
 
 const Home = () => {
   return (
-    <section id="home" className="flex flex-col py-36 shadow-lg px-2">
+    <section id="home" className="flex flex-col justify-center px-20 py-20 shadow-sm shadow-purple-600/40">
 
       {/* Main Content */}
-      <div className="flex flex-row items-center justify-between gap-12">
+      <div className="flex flex-row items-center justify-around gap-10">
 
          {/* Home Left */}
          <HomeLeft />
