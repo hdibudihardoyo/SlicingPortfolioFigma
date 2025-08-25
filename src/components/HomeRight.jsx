@@ -4,8 +4,8 @@ import { FiDownload } from "react-icons/fi";
 
 const HomeRight = () => {
   return (
-    <div className="home-right">
-      <div className="flex flex-col items-end gap-4 mt-4 text-blue-500 text-sm">
+    <div className="home-right w-full md:w-1/3 text-center md:text-right">
+      <div className="flex flex-col items-center md:items-end gap-4 mt-6 text-blue-500 text-sm">
         <a
           href="src/assets/cv ats hdibudihardoyo.pdf"
           target="_blank"
