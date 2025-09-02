@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../assets/people02.png";
+import ProfilePic from "../assets/ProfilePic.png";
 
 const AboutMe = () => {
   return (
@@ -9,7 +9,7 @@ const AboutMe = () => {
         {/* Foto Profil */}
         <div>
           <img
-            src={profilePic} // pakai import
+            src={ProfilePic} 
             alt="Foto Profil Hadi Budi Hardoyo"
             className="w-60 h-60 md:w-80 md:h-80 rounded-full object-cover border-4 border-purple-600 shadow-lg"
           />
@@ -21,12 +21,10 @@ const AboutMe = () => {
           <span className="inline-block bg-purple-900/40 text-blue-500 font-bold text-sm px-5 py-3 rounded-full mb-4">
             Tentang Saya
           </span>
-
           {/* Nama */}
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
             Hadi Budi Hardoyo
           </h2>
-
           {/* Deskripsi */}
           <ul className="text-gray-300 space-y-3 leading-relaxed">
             <li>👋 Halo, saya Hadi. Senang berkenalan denganmu!</li>
