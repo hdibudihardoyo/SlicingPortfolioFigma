@@ -31,10 +31,8 @@ const ProjectCard = ({ title, description, tags, image, link }) => {
           <img
             src={image}
             alt={`Preview project ${title}`}
-            className="rounded-xl w-full object-cover transform group-hover:scale-110 transition duration-500"
+            className="rounded-xl w-full object-cover"
           />
-          {/* Overlay */}
-          <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition"></div>
         </div>
       </a>
     </div>
